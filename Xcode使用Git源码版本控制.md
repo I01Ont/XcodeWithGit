@@ -28,6 +28,7 @@
 
 系统是 OS X Mavericks 10.9及以上：
 
+
 `defaults write com.apple.finder AppleShowAllFiles TRUE`
  
 系统是以前的 OS X 版本：
@@ -37,6 +38,8 @@
 然后是要重启Finder，则输入：
 
 `killall Finder`
+
+要隐藏文件就要把`TRUE`改成`NO`，并重启Finder。
 
 就能看到本项目的本地git源的存储位置了，实际上，在你选上了相应的选项时，这个目录就会被创建，在你创建新应用时，.git子目录也会被创建。
 
