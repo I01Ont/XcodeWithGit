@@ -14,7 +14,7 @@
 
 在项目名中输入GitDemo，并在Devices菜单选择iPhone，然后点击“Next”。
 
-![Single View](https://github.com/I01Ont/XcodeWithGit.git/Images/Name_And_Devices.png)
+![Single View](https://github.com/I01Ont/XcodeWithGit.git/master/Images/Name_And_Devices.png)
 
 选择保存工程（Project）的目录，再看到窗口底部的Source Control：Create git repository on (My Mac)，在默认下，此选项已经勾选了，如果你不想使用Git，可以取消勾选。现在要的就是勾选它并点击“Create”按钮。
 
