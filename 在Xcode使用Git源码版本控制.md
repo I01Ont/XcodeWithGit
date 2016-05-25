@@ -65,7 +65,7 @@
 
 接着会出现一个本地git源的目录列表，如图：
 
-![Git_1](http://7xskqc.com1.z0.glb.clouddn.com/static/Images/Git_1.png)
+![Git_1](http://7xskqc.com1.z0.glb.clouddn.com/static/Git_1.png)
 
 OK，现在git源已经创建了，但是当你在Xcode，打开Source Control菜单时，你会看到相关的选项都被禁用了。如图：
 
