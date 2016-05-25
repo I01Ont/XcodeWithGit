@@ -14,15 +14,15 @@
 
 在项目名中输入GitDemo，并在Devices菜单选择iPhone，然后点击“Next”。
 
-![Single View](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Name_And_Devices.png)
+![Single View](http://7xskqc.com1.z0.glb.clouddn.com/static/Name_And_Devices.png)
 
 选择保存工程（Project）的目录，再看到窗口底部的Source Control：Create git repository on (My Mac)，在默认下，此选项已经勾选了，如果你不想使用Git，可以取消勾选。现在要的就是勾选它并点击“Create”按钮。
 
-![Project Save](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Porject_Save.png)
+![Project Save](http://7xskqc.com1.z0.glb.clouddn.com/static/Porject_Save.png)
 
 当你创建完项目后，找到项目存储的目录，在目录中有一个.git的子目录，是Xcode为了存储git源的相关数据而自动创建的。
 
-![Show .Git](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Show_.Git.png)
+![Show .Git](http://7xskqc.com1.z0.glb.clouddn.com/static/Show_.Git.png)
 
 如果你看不到.git目录，那是文件隐藏了，做法是打开Terminal，并输入以下命令：
 
@@ -65,15 +65,15 @@
 
 接着会出现一个本地git源的目录列表，如图：
 
-![Git_1](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Git_1.png)
+![Git_1](http://7xskqc.com1.z0.glb.clouddn.com/static/Images/Git_1.png)
 
 OK，现在git源已经创建了，但是当你在Xcode，打开Source Control菜单时，你会看到相关的选项都被禁用了。如图：
 
-![Source Control_No](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Source_Control_No1.png)
+![Source Control_No](http://7xskqc.com1.z0.glb.clouddn.com/static/Source_Control_No1.png)
 
 原因是在使用Terminal创建git源时，Xcode并没接收到通知，关闭Xcode，重启后，在NoGit项目中，再次打开Source Control菜单时，相关的选项就能使用了，这如同在创建项目时勾选了Source Control：Create git repository on (My Mac)一样。
 
-![Source Control_Can](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Source_Control_Can1.png)
+![Source Control_Can](http://7xskqc.com1.z0.glb.clouddn.com/static/Source_Control_Can1.png)
 
 明白上面的命令后，即使你在创建一个Project时没有添加git源，你也可以在任何时候再添加也行。
 
@@ -116,13 +116,13 @@ OK，现在git源已经创建了，但是当你在Xcode，打开Source Control�
 
 查看一下Project Navigator面板，会看到在ViewController.m文件的右侧，有个M字母，如图：
 
-![Change Mark](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Change_Mark.png)
+![Change Mark](http://7xskqc.com1.z0.glb.clouddn.com/static/Change_Mark.png)
 
 说明了ViewController.m文件已经被修改，出现这个M字母是在提醒你有未提交的更改。
 
 那如何提交更改？这很简单，打开Source Control > Commit菜单，就会出现下图：
 
-![ViewControl.m Commit](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/ViewControl.m_Commit1.png)
+![ViewControl.m Commit](http://7xskqc.com1.z0.glb.clouddn.com/static/ViewControl.m_Commit1.png)
 
 在最左边区域，只显示ViewControl.m文件被修改了，在文件的左边有个选择框，在默认状态下是被选中，取消勾选后，这文件的更改就不会被提交。
 
@@ -132,15 +132,15 @@ OK，现在git源已经创建了，但是当你在Xcode，打开Source Control�
 
 在两个窗口之间有一个有数字显示的小标签，这个数字表示了各项更改，在数字旁边有一个小勾，表示此更改将会被提交，当你点击右边的小箭头时会给出一个选择菜单，明确告诉你可以选择不提交或者忽略此更改。
 
-![Not Commit Or Discard Change](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Not_Commit_Or_Discard_Change.png)
+![Not Commit Or Discard Change](http://7xskqc.com1.z0.glb.clouddn.com/static/Not_Commit_Or_Discard_Change.png)
 
 如果你选择“Don't Commit”选项，小勾会由一个停止标志所取代，此项更改便不会被保存到源中。
 
-![Discard Commit](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Discard_Commit.png)
+![Discard Commit](http://7xskqc.com1.z0.glb.clouddn.com/static/Discard_Commit.png)
 
 如果你选择“Discard Change”选项，会给出一个确认窗口，提示你所做的更改将会被恢复，并且不能撤消这个操作。
 
-![Dischange](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Dischange.png)
+![Dischange](http://7xskqc.com1.z0.glb.clouddn.com/static/Dischange.png)
 
 
 如果你点击了"Revert"按钮，所选中的区域的更改将会完全消失，如同未曾出现。
@@ -149,15 +149,15 @@ OK，现在git源已经创建了，但是当你在Xcode，打开Source Control�
 
 另外，在提交窗口底部的空白区域（如下图），这里可以添加关于此次更改的描述。
 
-![Write something](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Write_something.png)
+![Write something](http://7xskqc.com1.z0.glb.clouddn.com/static/Write_something.png)
 
 当要提交时，就点击窗口右下角的“Commit 1 File”按钮（如下图）：
 
-![Commit 1 File](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Commit_1_File.png)
+![Commit 1 File](http://7xskqc.com1.z0.glb.clouddn.com/static/Commit_1_File.png)
 
 其中，按钮会显示要提交的文件总数，提交成功后，打开Source Control > History,提交的记录会在列表中显示。
 
-![Project history](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Project_history.png)
+![Project history](http://7xskqc.com1.z0.glb.clouddn.com/static/Project_history.png)
 
 关闭Project history窗口，看到Project Navigator,会发现那个在ViewController.m右边的M字母不见了。
 
@@ -178,19 +178,19 @@ OK，现在git源已经创建了，但是当你在Xcode，打开Source Control�
 
 看到Project Navigator,有四个文件待提交，打开Source Control > Commit菜单。
 
-![Commit 5 Files](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Commit_5_Files.png)
+![Commit 5 Files](http://7xskqc.com1.z0.glb.clouddn.com/static/Commit_5_Files.png)
 
 可以看到要提交的文件一共有五个，除了修改的四个文件外，还有一个项目配置文件，在新类被添加到项目后，Xcode会自动修改这个项目配置文件，当你打开TestClass.h或TestClass.m文件，左边的窗口没有任何显示：
 
 
-![CommitFiles](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Commit_5_Files1.png)
+![CommitFiles](http://7xskqc.com1.z0.glb.clouddn.com/static/Commit_5_Files1.png)
 
 
 原因是此文件在之前并没有提交过的记录，因此没有可以比较的版本，在右边只显示“File was added”。
 
 写上描述并提交便可，可到Source Control > Histroy菜单查看提交记录：
 
-![Project history1](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Project_history1.png)
+![Project history1](http://7xskqc.com1.z0.glb.clouddn.com/static/Project_history1.png)
 
 ####版本间的比较（Comparing Versions）
 
@@ -198,38 +198,38 @@ OK，现在git源已经创建了，但是当你在Xcode，打开Source Control�
 
 如果你要比较同一文件的两个版本，可以会用View > Version Editor > Show Version Editor或者点击工具栏的Show the version editor > Comparison.
 
-![Comparsion](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Comparsion.png)
+![Comparsion](http://7xskqc.com1.z0.glb.clouddn.com/static/Comparsion.png)
 
 这样编辑器区域会分为两部份，最初是显示同样的内容，点击了（下图）小时钟图标，便可比较不同版本的更改内容。
 
-![Compare](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Compare.png)
+![Compare](http://7xskqc.com1.z0.glb.clouddn.com/static/Compare.png)
 
 
 通常，在左边会显示当前版本内容，而右边会显示之前的版本内容，其中在蓝色高亮的区域显示的是被更改的代码。
 
-![Compareddifferent](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Compare_different.png)
+![Compareddifferent](http://7xskqc.com1.z0.glb.clouddn.com/static/Compare_different.png)
 
 请注意在两个编辑器中间，也有在提交更改窗口时看到的小标签，点击了向下的按钮会给出忽略更改的选项，如果你点击了忽略更改，Xcode会给你提示并征求你的同意，如果你选择同意忽略，这些被忽略的代码将会永远不复存在，因此注意不要忽略。
 
 当然，除了上述的方法，另外还有一个回到之前版本的文法，在两个编辑器下面的工具栏，下图箭头指出的图标：
 
-![Dischange1](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Dischange1.png)
+![Dischange1](http://7xskqc.com1.z0.glb.clouddn.com/static/Dischange1.png)
 
 当你点击它后，两个面板间的纵列内容便会改变，变成了之前更改的时间戳，但并不是所有的更改都代表实际提交。代表之前版本的圆角矩形的数量取决于提交更改的次数。
 
-![time](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Time.png)
+![time](http://7xskqc.com1.z0.glb.clouddn.com/static/Time.png)
 
 除了文件的不同版本的比较之外，Xcode也可以让你找到文件的更改提交者，以及是谁修改了哪些代码，在多人开发的团队中，这是非常有用的。打开View Editor > Show Blame View菜单或是在工具栏的Show the version editor按钮上选择Blame选项。
 
-![Compare5](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Compare5.png)
+![Compare5](http://7xskqc.com1.z0.glb.clouddn.com/static/Compare5.png)
 
 显示不同的提交和作者，还有其它的提交信息都显示在右边的面板中。
 
-![compare4](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Compare4.png)
+![compare4](http://7xskqc.com1.z0.glb.clouddn.com/static/Compare4.png)
 
 在下图中，点击（提示1），跳到特定提交更改的文件，点击（提示2），会跳转到比较窗口。
 
-![Compare8](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Compare8.png)
+![Compare8](http://7xskqc.com1.z0.glb.clouddn.com/static/Compare8.png)
 
 其中，有一个日志视图（Log View）。可以打开View > Version Editor > Show Log View菜单查看。
 
@@ -247,13 +247,13 @@ OK，现在git源已经创建了，但是当你在Xcode，打开Source Control�
 
 打开Source Control > GitDemo-master > New Brance...这个菜单：
 
-![AnotherBranch](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/AnotherBranch.png)
+![AnotherBranch](http://7xskqc.com1.z0.glb.clouddn.com/static/AnotherBranch.png)
 
 命名随意，点击“Create”按钮，新的的分支就会被创建了，而当前的代码也会被复制到新的分支里。
 
 打开Source Control菜单，可以看到活动分支是哪个了：
 
-![GitDemo_Anotherbranch](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/GitDemo_Anotherbranch.png)
+![GitDemo_Anotherbranch](http://7xskqc.com1.z0.glb.clouddn.com/static/GitDemo_Anotherbranch.png)
 
 打开类文件，在私有属性区添加下列方法声明：
 
@@ -285,15 +285,15 @@ OK，现在git源已经创建了，但是当你在Xcode，打开Source Control�
     
  现在，将AnotherBranch分支的更改提交了，打开View > Version Editor >Show Version Editor菜单，在右边编辑面板下面的工具栏，可以看到被选中的分支是AnotherBranch,点击便可看到当前分支和master分支同时显示，在master分支里选择任意版本，Xcode都会高亮地显示这二者的区别，如此便能观察到代码间的更改了。
  
- ![master_AnotherBranch](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/master_compare_AnotherBranch.png)
+ ![master_AnotherBranch](http://7xskqc.com1.z0.glb.clouddn.com/static/master_compare_AnotherBranch.png)
  
  另外，要切换到另一个分支，可以打开Source Control > GitDemo - AnotherBranch > Switch to Branch...菜单。
  
- ![Switch_Branch](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Switch_to _Branch.png)
+ ![Switch_Branch](http://7xskqc.com1.z0.glb.clouddn.com/static/Switch_to _Branch.png)
  
  在下图中可以选择想跳转的分支，现在选择master。
  
- ![Switch_master](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Switch_Master.png)
+ ![Switch_master](http://7xskqc.com1.z0.glb.clouddn.com/static/Switch_Master.png)
  
  当master分支成为当前活动分支时，可以观察到在AnotherBranch的更改并没有在master中体现。
  
@@ -343,7 +343,7 @@ OK，现在git源已经创建了，但是当你在Xcode，打开Source Control�
 
 上述的两种情况都能在Source Control > GitDemo菜单中实现，但值得注意的是，当活动分支是master分支时，第二个选择是不可选的。
 
-![Merge2](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Merge2.png)
+![Merge2](http://7xskqc.com1.z0.glb.clouddn.com/static/Merge2.png)
 
 现在开始合并示范：确保当前活动分支是master分支，打开Source Control > GitDemo - master > Merge From Branch...菜单，选择AnotherBranch,然后点击Merge按钮。
 
@@ -351,15 +351,15 @@ OK，现在git源已经创建了，但是当你在Xcode，打开Source Control�
 
 紧接着会有一个比较窗口，可以看到合并之后代码的更改，觉得可以了就点击Merge按钮。
 
-![Merge1](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Merge1.png)
+![Merge1](http://7xskqc.com1.z0.glb.clouddn.com/static/Merge1.png)
 
 等会就OK了，完成后AnotherBranch里的内容都合并到master分支中。然后，用同样的方法合并LastBranch。值得注意的是，你要先提交完更改，Xcode才会允许合并，在比较窗口区域的中间，你能看到有一个红色区域显示合并后的更改，这表明分支里的代码将会替换原来活动分支里的代码，
 
-![Merge_replace](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Merge_replace.png)
+![Merge_replace](http://7xskqc.com1.z0.glb.clouddn.com/static/Merge_replace.png)
 
 在编辑面板底部的一排的四个小按钮，选择第一个，会把master分支的代码放在上面，而另一个分支的代码则会在其后面。另外三个小按钮，可以自行点击看看，这里不做介绍了。
 
-![](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Merge_replace1.png)
+![](http://7xskqc.com1.z0.glb.clouddn.com/static/Merge_replace1.png)
 
 细心地查看要更改的代码，可以后就点击窗口右下角的Merge按钮，这样就能合并了。
 
@@ -390,7 +390,7 @@ OK，现在git源已经创建了，但是当你在Xcode，打开Source Control�
 看到Project Navigator,刚才更改的文件旁边有个M字母标识，当忽略所有更改后，看看是否会回到更改之初的状态。当然，你也可以选择忽略单个文件或多个文件的更改，首先要选定要忽略更改的文件，然后打开Source Control便能看到Discard Change的相关选项，
 这个可以自己实践下。当你确定点击了Discard All Changes后，会给出一个提示框（如下图），让你确认是否要删除。这能防止误删代码。
 
-![Discard_All_Changes](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Discard_All_Changes.png)
+![Discard_All_Changes](http://7xskqc.com1.z0.glb.clouddn.com/static/Discard_All_Changes.png)
 
 好了，可以看出在Xcode中使用git管理是多么的好用，希望本教程对你有所帮助，若有错误之处，还望你提出和教导。
 
