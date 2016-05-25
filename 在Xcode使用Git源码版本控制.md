@@ -10,7 +10,7 @@
 
 打开Xcode，创建一个新的工程，在左边的iOS区里选择“Application”，在应用模板页面选择“Single View Application”，点击“Next”。
 
-![Single View](https://github.com/I01Ont/XcodeWithGit/blob/master/Images/Single_View_Application2.png)
+![Single View](http://7xskqc.com1.z0.glb.clouddn.com/static/Single_View_Application2.png)
 
 在项目名中输入GitDemo，并在Devices菜单选择iPhone，然后点击“Next”。
 
